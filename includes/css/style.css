@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#foodTable_filter > label{
+    padding: 5px;
+}
+#foodTable_filter{
+    margin-bottom: 0.5rem;
+}
+#foodTable_length{
+    margin-bottom: 1rem;
+}
+/* #foodTable_filter > label > input[type=search]{
+    outline: none;
+    margin-right: 1rem;
+} */
+#foodTable_previous{
+    padding: 5px ;
+    font-size: 14px;
+}
+#foodTable_paginate > span > a.paginate_button.current{
+    padding: 4px 15px;
+    border-radius: 8px;
+    background:#ffffff;
+    font-size: 14px;
+}
